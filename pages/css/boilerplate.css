@@ -1,0 +1,53 @@
+body {
+	background-color: #dadada;
+}
+
+
+@font-face
+{
+	font-family: GeoSansLight;
+	src: url('css_resources/fonts/GeosansLight-Oblique.ttf');
+}
+
+/*.banner {
+	height: 28%;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	border-bottom: 0.5em; 
+	border-bottom-style: groove;
+	border-bottom-color: #760303;
+	z-index: 1001;
+}
+
+.banner h3 {
+	float: left;
+	margin-top: 1.4%;
+	margin-left: 3.6%;
+	font-size: 4.4em;
+	font-family: GeoSansLight, verdana;
+	color: #630711;
+}
+
+#cornerlogo {
+	float: left;
+	padding: 0.2%;
+	height: 7em;
+	width: 12em;
+}
+
+#chaptertext {
+	margin-top: -3em;
+	height: 7em;
+	width: 36em;
+}*/
+
+#showMenu {
+	font-family: GeoSansLight, verdana;
+	background-color: #630711;
+	color: #ffffff;
+	padding: 1em;
+	font-size: 1em;
+	margin-bottom: 1%;
+}
