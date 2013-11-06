@@ -1,7 +1,20 @@
-body {
-	background-color: #dadada;
-}
+/*.opacityfilter{
+	position: absolute;
+	background-image: url('../photos/color-run-bg1.jpg');
+	height: 100%;
+	width: 100%;
+	-webkit-filter: blur(20px);
+    -moz-filter: blur(20px);
+    -o-filter: blur(20px);
+    -ms-filter: blur(20px);
+    filter: blur(20px);
+    opacity: 0.2;
+}*/
 
+body {
+	background-image: url('../photos/oxspringfling13b.jpg');
+	background-size: 100%;
+}
 
 @font-face
 {
