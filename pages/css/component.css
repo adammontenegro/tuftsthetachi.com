@@ -9,11 +9,21 @@
 	font-style: normal;
 } /* Made with http://icomoon.io/ */
 
+@font-face {
+	font-family: 'font-awesome';
+	src:url('css_resources/fonts/font-awesome/fonts/fontawesome-webfont.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+
 
 .cbp_tmtimeline {
 	margin: 30px 0 0 0;
 	padding: 0;
 	list-style: none;
+	margin-top: 16%;
+	margin-left: -2%;
+	margin-right: 10%;
 	position: relative;
 } 
 
@@ -48,35 +58,40 @@
 }
 
 .cbp_tmtimeline > li .cbp_tmtime span:last-child {
-	font-size: 2.9em;
-	color: #af3538;
+	font-size: 2.7em;
+	color: #C60E0A;
 }
 
 .cbp_tmtimeline > li:nth-child(odd) .cbp_tmtime span:last-child {
-	color: #FD5B61;
+	color: #FF493F;
 }
 
 /* Right content */
 .cbp_tmtimeline > li .cbp_tmlabel {
-	margin: 0 0 15px 25%;
-	background: #af3538;
+	margin: -3% 0 15px 25%;
+	background: #C60E0A;
 	color: #fff;
 	padding: 2em;
-	font-size: 1.2em;
+	font-size: 1em;
 	font-weight: 300;
 	line-height: 1.4;
 	position: relative;
 	border-radius: 5px;
+	width: 90%;
 }
 
 .cbp_tmtimeline > li:nth-child(odd) .cbp_tmlabel {
-	background: #FD5B61;
+	background: #FF493F;
 }
 
 .cbp_tmtimeline > li .cbp_tmlabel h2 { 
 	margin-top: 0px;
 	padding: 0 0 10px 0;
 	border-bottom: 1px solid rgba(255,255,255,0.4);
+}
+
+.cbp_tmlabel a {
+	color: #0893cf;
 }
 
 /* The triangle */
@@ -101,13 +116,13 @@
 .cbp_tmtimeline > li .cbp_tmicon {
 	width: 40px;
 	height: 40px;
-	font-family: 'ecoico';
+	font-family: 'font-awesome';
 	speak: none;
 	font-style: normal;
 	font-weight: normal;
 	font-variant: normal;
 	text-transform: none;
-	font-size: 1.4em;
+	font-size: 1.5em;
 	line-height: 40px;
 	-webkit-font-smoothing: antialiased;
 	position: relative;
@@ -120,22 +135,6 @@
 	top: 0;
 	margin: 0 0 0 -25px;
 	margin-bottom: -40px;
-}
-
-.cbp_tmicon-phone:before {
-	content: "\e000";
-}
-
-.cbp_tmicon-screen:before {
-	content: "\e001";
-}
-
-.cbp_tmicon-mail:before {
-	content: "\e002";
-}
-
-.cbp_tmicon-earth:before {
-	content: "\e003";
 }
 
 /* Example Media Queries */

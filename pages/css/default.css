@@ -32,11 +32,29 @@ a:hover {
 	color: #000;
 }
 
-.blog-pic {
-	width: 45%;
-	height: 45%;
+.blogl-pic {
 	float: left;
 	margin-right: 1em;
+}
+
+.blogr-pic {
+	float: right;
+	margin-left: 1em;
+}
+
+#kronish-blog-pic {
+	width: 45%;
+	height: 45%;
+}
+
+#tenor-blog-pic {
+	width: 25%;
+	height: 25%;
+}
+
+#jed-blog-pic {
+	width: 30%;
+	height: 30%;
 }
 
 .main,
@@ -44,7 +62,7 @@ a:hover {
 	width: 95%;
 	max-width: 68em;
 	margin: 0 auto;
-	margin-left: 12em;
+	margin-left: 0em;
 	padding: 0 1.875em 3.125em;
 }
 
@@ -134,4 +152,62 @@ a:hover {
 
 .icon-arrow-left:before {
 	content: "\f060";
+}
+
+.socialmedia {
+	float: right;
+	background-color: #C60E0A;
+	border-radius: 5px;
+	height: auto;
+	position: relative;
+	margin-right: 3em;
+}
+
+.socialmedia img {
+	padding: 20px;
+	width: 90px;
+	height: 90px;
+}
+
+#philanthropy {
+	margin-top: 15%;
+}
+
+.contentblock > li {
+	margin: 0 0 3% 20%;
+	background: #C60E0A;
+	color: #fff;
+	padding: 1em;
+	font-size: 1em;
+	font-weight: 300;
+	line-height: 1.4;
+	position: relative;
+	border-radius: 5px;
+	width: 90%;
+	border: 3px solid #760303;
+	box-shadow: 8px 8px 6px gray;
+}
+
+.contentblock > li:nth-child(odd) {
+	background: #FF493F;
+	margin: 0 0 3% 0;
+}
+
+.contentblock > li h2 {
+	padding: 0 0 10px 0;
+	border-bottom: 1px solid rgba(255,255,255,0.4);
+}
+
+.contentblock > li h3 {
+	padding: 0 0 10px 0;
+	border-bottom: 1px solid rgba(255,255,255,0.4);
+}
+
+.contentblock > li a {
+	color: #2209b2;
+	font-weight: 400;
+}
+
+.contentblock > li a:hover {
+	color: #0893cf;
 }

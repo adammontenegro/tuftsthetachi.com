@@ -4,7 +4,7 @@ var menuLeft = document.getElementById( 'cbp-spmenu1' ),
 
 console.log(body);
 
-showMenu.onclick = function() {
+/*showMenu.onclick = function() {
 	classie.toggle( this, 'active' );
 	classie.toggle( menuLeft, 'cbp-spmenu-open' );
-};
+};*/
